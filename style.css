@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(250, 138, 211);
+  display: flex;
+}
+
+.container {
+  border-radius: 15px;
+  padding: 30px;
+  margin: 5em;
+  width: 350px;
+  height: 434px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+}
+
+.container:nth-child(1) {
+  background-color: rgb(13, 214, 236);
+}
+
+.container:nth-child(1):hover {
+  background-color: aliceblue;
+}
+
+.container:nth-child(2) {
+  background-color: rgb(80, 243, 69);
+}
+
+.container:nth-child(2):hover {
+  background-color: blueviolet;
+}
+
+.knopka {
+  top: -26px;
+  left: -33px;
+  position: absolute;
+}
+
+.plusik {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+  left: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: -25px;
+  background-color: rgb(250, 138, 211);
+  border-top-left-radius: -20px;
+}
+
+.price p:nth-child(1) {
+  text-decoration: line-through;
+  font-size: 20px;
+  color: rgb(107, 1, 19);
+  line-height: 1;
+}
+
+.text {
+  width: 290px;
+  height: 58px;
+  top: 210px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text p:nth-child(2) {
+  text-align: right;
+  color: rgb(255, 127, 176);
+}
+
+.price {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  font-size: 40px;
+}
+
+* {
+  margin: 0;
+}
